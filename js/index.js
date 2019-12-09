@@ -90,3 +90,7 @@ navLink.forEach(element => {
 })
 
 
+//gsap
+
+gsap.to(".logo-heading", {duration: 5, x: 100, ease: "elastic"});
+gsap.from('.nav-link', {duration: 1, opacity: 0, y: "random(-200, 200)", stagger: 0.25})
